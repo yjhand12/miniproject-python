@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-API_KEY = "fca_live_y1EYq7GX7McpTy3xbP0EVZDreCp84ceCdTZXm74k"
+API_KEY = "YOUR_API_KEY"
 API_URL = "https://api.freecurrencyapi.com/v1/latest"
 
 @app.route('/', methods=['GET','POST'])
